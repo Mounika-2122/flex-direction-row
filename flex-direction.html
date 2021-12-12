@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-direct</title>
+    <style>
+       .direction{
+           display: flex;
+           flex-direction: row;
+           background-color:yellow;
+           width: 800px;
+           height: 100px;
+           margin:20px;
+           padding: 10px;
+       }
+       .direction > div{
+           background-color: pink;
+           width: 100px;
+           margin: 10px;
+           text-align: center;
+           height: 75px;
+       }
+    </style>
+</head>
+<body>
+    <h1> flex-Direction</h1>
+    <p>The flex-direction stacks the flex items </p>
+    <div class="direction">
+        <div>direction 1</div>
+        <div>direction 2</div>
+        <div>direction 3</div>
+        <div>direction 4</div>
+        <div>direction 5</div>
+        <div>direction 6</div>
+    </div>
+</body>
+</html>
